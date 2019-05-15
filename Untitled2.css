@@ -1,0 +1,171 @@
+#fons {
+    font-family: 'Galada', cursive;}
+
+.ti {
+    
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    color: white;
+}
+
+#t {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bo {
+    padding-bottom: 20px;
+    
+}
+#map {
+    height: 400px;
+    
+    
+}
+#pa {
+    
+    padding-bottom: 30px;
+}
+
+
+
+.collapsible {
+  background-color: #5F9EA0;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+    font-weight: bold;
+}
+
+.active, .collapsible:hover {
+  background-color: darkslategray;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+    
+    
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+    width: 30%;
+  background-color: darkslategray;
+}
+
+.right {
+  right: 0;
+    width: 70%;
+  background-color: aliceblue;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centereds {
+  
+  text-align: center;
+    font-size: 16px;
+}
+
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+
+.table { 
+
+  border-color: black;
+    
+}
+
+
+
+.imgDownload{
+    
+    width:50px;
+    height:50px;
+}
+
+
+.imgDis{
+    
+    width:120px;
+    height:120px;
+}
+
+
+
+.imgDisplay{
+    
+    width:250px;
+    height:250px;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
